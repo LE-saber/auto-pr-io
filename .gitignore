@@ -1,0 +1,46 @@
+# Python environments and caches
+.venv/
+.venv*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local runtime and user configuration
+.runtime/
+settings.json
+.env
+.env.*
+!.env.example
+
+# Generated data and private captures
+history/
+recordings/
+[Ss]creenshots/*
+![Ss]creenshots/example/
+![Ss]creenshots/example/**
+*.log
+
+# Local agent state and recovery copies
+.agents/
+.omc/
+backup_*/
+.git.empty-backup-*/
+.remote_checkout/
+
+# Android Studio and Gradle outputs
+android/.idea/
+android/**/.idea/
+android/**/.gradle/
+android/**/build/
+android/**/local.properties
+*.iml
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
